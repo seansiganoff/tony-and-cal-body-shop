@@ -1,0 +1,173 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(146, 146, 146), rgb(9, 31, 133));
+    background-color: white;
+    margin: 0;
+    border-bottom: 3px solid rgb(242, 201, 0);
+    padding: 1rem 2rem 1rem 2rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 150;
+    max-height: 7rem;
+}
+
+.nav-logo {
+    min-width: 100px;
+    max-width: 12vw;
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+.sandwich-menu-container {
+    padding: 0 0 0 30px;
+}
+
+.sandwich-menu {
+    width: 45px;
+    height: 4px;
+    background-color: rgb(190, 172, 2);
+    margin: 6px 5px;
+    border-radius: 20px;
+  }
+
+.container {
+    position:relative;
+    display: flex;  
+    width:100%;
+    flex-direction: column;
+  }
+
+  .menu_container {
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to bottom, rgb(9, 31, 133), rgb(192, 192, 192));
+    color:#fff;
+    flex-direction: column;
+    z-index: 200;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.nav-number-mobile {
+    display: none;
+}
+
+
+.nav-number {
+    color: rgb(14, 14, 14);
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 0, 0);
+    border-radius: 7px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    width: 100%;
+    height: 90vh;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 7rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.close-btn-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10vh;
+    
+}
+
+.close-btn-div button {
+    margin-right: 30px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+span a:link {
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 21, 255);
+    font-size: xx-large;
+
+}
+
+
+
+
+
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .nav-number {
+
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    span a:link {
+        font-size: x-large;
+    }
+    .nav-links {
+        justify-content: space-evenly;
+        margin: 0;
+        font-size: x-large;
+    }
+    
+    .nav-container {
+        padding: 1rem 10px;
+    }
+    .nav-logo {
+        margin-left: 0;
+    }
+    
+    
+}
+
+
+

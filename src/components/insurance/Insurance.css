@@ -1,0 +1,35 @@
+
+
+.insurance-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 7rem 0 4rem 0;
+}
+.insurance-banner {
+    padding: 2rem 10px;
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-size: xx-large;
+    font-weight: 700;
+    width: 100%;
+    
+}
+
+.insurance-container p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: large;
+    padding: 1rem 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .insurance-banner {
+        margin-top: 0;
+    }
+    .insurance-container p {
+        width: 100%;
+        padding-top: 0;
+        font-size: medium;
+    }
+}
