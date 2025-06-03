@@ -42,7 +42,9 @@ const Nav = () => {
     <div className='nav-container'>
 
         <div>
-          <img className='nav-logo' src={require('../../images/COWBOY COLLISION_logo.avif')} alt='Company Logo' />
+
+          <Link onClick={closeMenu} to={'/'} ><img className='nav-logo' src={require('../../images/COWBOY COLLISION_logo.avif')} alt='Company Logo' /></Link>
+          
         </div>
         {/* <div className='nav-number'>
              <p style={{ color: 'white'}}>CALL <br />214-556-8482</p>
