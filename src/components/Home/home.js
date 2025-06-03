@@ -39,6 +39,8 @@ const Home = () => {
       {<About />}
       {<FAQ />}
       {/* {<Why />} */}
+
+      <a href={"https://maps.app.goo.gl/14SfuiTSpSbwV96Y6"} target="_blank" rel="noopener noreferrer">
       <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107071.38448864216!2d-96.79577415170237!3d33.00428258390039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c15ff791ad505%3A0x5e571339f56ee2b4!2sCowboy%20Collision!5e0!3m2!1sen!2sus!4v1748901173126!5m2!1sen!2sus"
         width="100%" 
         height="650" 
@@ -47,6 +49,7 @@ const Home = () => {
         style={{ border: "0"}}
         referrerPolicy="no-referrer-when-downgrade">
         </iframe>
+        </a>
     </div>
   )
 }
