@@ -11,6 +11,9 @@
    height: 50vw;
 }
 
+.locations a:link, .locations a:visited {
+    color: black;
+}
 
 
 

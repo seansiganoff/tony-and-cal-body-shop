@@ -8,7 +8,7 @@ const OurGuarantee = () => {
                 <div className='guarantee-banner'>2-Year Limited Warranty</div>
                 <div className='guarantee-text'>
                   <b>Warranty Coverage</b><br />
-                  True Kings Auto Body provides a 2-Year Limited Warranty on all collision repair and refinishing work performed at our facility. This warranty covers:<br />
+                  Cowboy Collision provides a 2-Year Limited Warranty on all collision repair and refinishing work performed at our facility. This warranty covers:<br />
                   <br />
                   
                   <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>

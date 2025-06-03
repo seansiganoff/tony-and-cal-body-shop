@@ -22,7 +22,7 @@ const About = () => {
             <div className="services-banner">OUR SERVICES</div>
             <p>
             At Cowboy Collision, we offer a full range of auto body repair services to get your vehicle looking and performing its best. 
-            Our services include: <br />
+            Our services include: <br /> <br />
              <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
               <li>Collision Repair</li>
               <li>Dent And Scratch Repair</li>
@@ -35,7 +35,7 @@ const About = () => {
               <li>Paint Jobs</li>
               <li>Aluminum Repair</li>
             </ul>
-
+ <br /> <br />
             We work with all major insurance providers and offer free estimates to make the process hassle-free. 
             Whether you've been in an accident or just want to restore your vehicle’s appearance, our experienced technicians are here to provide top-quality workmanship and fast, reliable service.
             

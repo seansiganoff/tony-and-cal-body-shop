@@ -24,7 +24,7 @@ const Home = () => {
     <div className='header'>
       <div className='header-overlay'>
         <img className="company-logo" src={require('../../images/tonyandcal-shoppic-resized.JPG')} alt='Company Logo' />
-        <div className="locations"><b className='theme-color'>ADDRESS:</b><a href={"https://maps.app.goo.gl/14SfuiTSpSbwV96Y6"} target="_blank" rel="noopener noreferrer">
+        <div className="locations"><b className='theme-color'>ADDRESS: </b><a href={"https://maps.app.goo.gl/14SfuiTSpSbwV96Y6"} target="_blank" rel="noopener noreferrer">
       925 22nd St unit 116, Plano, TX 75074.
     </a> </div>
 
