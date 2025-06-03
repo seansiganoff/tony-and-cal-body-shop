@@ -16,12 +16,12 @@
     top: 0;
     right: 0;
     z-index: 150;
-    max-height: 7rem;
+    max-height: 8rem;
 }
 
 .nav-logo {
-    min-width: 100px;
-    max-width: 12vw;
+    min-width: 170px;
+    max-width: 200px;
     margin: 0 10px 0 10px;
     padding: 0;
 }
@@ -160,7 +160,7 @@ a:visited {
     }
     
     .nav-container {
-        padding: 1rem 10px;
+        padding: 10px;
     }
     .nav-logo {
         margin-left: 0;

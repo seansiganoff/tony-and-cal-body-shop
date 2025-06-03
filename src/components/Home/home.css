@@ -3,7 +3,7 @@
 .header-overlay {
     background-color: rgba(255, 255, 255, 0.904);
     padding-bottom: 3rem;
-    margin-top: 5rem;
+    margin-top: 3.5rem;
 }
 
 .company-logo {
@@ -40,11 +40,9 @@
 
 
 @media only screen and (max-width: 1000px) {
-    
-    
-    
-  
-    
+    .header-overlay {
+        margin-top: 6.5rem;
+    }
 }
 
 @media only screen and (max-width: 700px) {
